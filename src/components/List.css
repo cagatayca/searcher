@@ -1,0 +1,32 @@
+.listArea{
+    width: 100vh;
+    margin: 0 auto;
+}
+
+input
+{
+    margin-top: 10px;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 10px;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.list li{
+    padding: 5px;
+    color: rgb(219, 163, 9);
+    background-color: rgb(131, 57, 57);
+}
+.list li span{
+    display: block;
+
+}
+.list li span.name{
+    float: left;  
+}
+.list li span.phone{
+    float: right;   
+}
+.list li span.clearfix{
+    clear: both;   
+}
